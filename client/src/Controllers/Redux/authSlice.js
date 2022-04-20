@@ -28,3 +28,5 @@ const slice = createSlice({
 })
 
 export default slice.reducer
+
+export const {signIn, signOut, createUser} = slice.actions
